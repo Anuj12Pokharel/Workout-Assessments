@@ -1,17 +1,17 @@
 # Workout Tracking API
 
-A production-ready REST API backend for tracking workout sessions and providing personalized workout recommendations based on user performance. Built with FastAPI and SQLAlchemy.
+A Workout Tracking REST API backend for tracking workout sessions and providing personalized workout recommendations based on user performance. Built with FastAPI and SQLAlchemy.
 
 ## Features
 
-- 🏋️ **Workout Session Management**: Start, log, and end workout sessions
-- 📊 **Smart Recommendations**: Adaptive workout planning based on past performance
-- 👥 **Multi-User Support**: Track workouts for multiple users
-- 📈 **Progress Tracking**: View workout history and progression trends
-- 🔄 **RESTful API**: Clean, versioned API with pagination and filtering
-- ✅ **Input Validation**: Comprehensive request validation with detailed error messages
-- 🔍 **Request Tracking**: UUID-based request IDs for debugging
-- 📖 **Auto Documentation**: Interactive API docs with Swagger UI
+**Workout Session Management**: Start, log, and end workout sessions
+**Smart Recommendations**: Adaptive workout planning based on past performance
+**Multi-User Support**: Track workouts for multiple users
+**Progress Tracking**: View workout history and progression trends
+ **RESTful API**: Clean, versioned API with pagination and filtering
+ **Input Validation**: Comprehensive request validation with detailed error messages
+ **Request Tracking**: UUID-based request IDs for debugging
+ **Auto Documentation**: Interactive API docs with Swagger UI
 
 ## How It Works
 
@@ -29,7 +29,7 @@ This progressive overload approach helps you continuously improve while adjustin
 
 ### Prerequisites
 
-- Python 3.9 or higher
+- Python 3.12 or higher
 - pip (Python package manager)
 
 ### Installation

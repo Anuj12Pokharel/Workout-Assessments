@@ -1,6 +1,6 @@
 """Pydantic schemas for request/response validation"""
 from datetime import datetime
-from typing import Optional
+from typing import Optional, Any
 from pydantic import BaseModel, Field, EmailStr, field_validator
 
 
@@ -166,7 +166,7 @@ class ErrorDetail(BaseModel):
 class APIResponse(BaseModel):
     """Standard API response envelope"""
     success: bool
-    data: Optional[any] = None
+    data: Optional[Any] = None
     errors: Optional[list[ErrorDetail]] = None
     meta: ResponseMeta
     message: Optional[str] = None
